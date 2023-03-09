@@ -232,9 +232,8 @@ section.right {
     }
 
     .comingsoon .companylogo {
-        width: 291px;
-        height: 227px;
-        margin: 0 0 0 107px;
+        height: 215px;
+        margin: 0 0 0 145px;
     }
 
     .comingsoon h1 {
@@ -262,12 +261,12 @@ section.right {
 
     .email_container input {
         width: 344px;
-        height: 30px;
+        height: 42px;
     }
 
     .comingsoon button {
         width: 344px;
-        height: 30px;
+        height: 42px;
     }
 .comingsoon_socials{
     width: 280px;
