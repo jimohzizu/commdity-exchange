@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    --primary-blue: #42A4C3;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+
+
+
+a button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+
+}
+
+.container_left {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 98px;
+}
+
+.comingsoon img {
+    width: 80px;
+    height: 53.44px;
+    margin-bottom: 32px;
+}
+
+.comingsoon h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    margin-bottom: 8px;
+}
+
+.comingsoon p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #A9A9AA;
+    margin-bottom: 28px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+
+}
+
+.comingsoon button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 440px;
+    height: 44px;
+    background: #42A4C3;
+    border-radius: 4px;
+    border: none;
+    color: white;
+
+}
+
+.email_container{
+    display: flex;
+    flex-direction: column;
+}
+.email_container input {
+    align-items: center;
+    width: 440px;
+    height: 40px;
+    border: 1px solid #A9A9AA;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    text-indent: 10px;
+}
+
+.email_container input::placeholder {
+    width: 100px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+  
+    color: #A9A9AA;
+    
+}
+
+.email_container input[type=text]{
+
+}
+
+.comingsoon .companylogo {
+    width: 213px;
+    height: 240px;
+    margin-left: 107px;
+}
+
+.comingsoon_socials {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 33px;
+    gap: 36px;
+    width: 388px;
+    height: 64px;
+
+
+}
+
+.comingsoon_socials img {
+    border: 1px solid #A9A9AA;
+    border-radius: 4px;
+    padding: 13px;
+    width: 28px;
+    height: 23px;
+
+}
+
+section.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_right {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-blue);
+    width: fit-content;
+    color: white;
+    position: relative;
+    padding: 33px 90px;
+
+}
+
+.container_right-images {
+    height: 715px;
+    width: 530px;
+    left: 0px;
+    top: 0px;
+    border-radius: 38px;
+
+
+}
+
+.container_right img {
+    padding-top: 50px;
+}
+
+.container_right h1 {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 38px;
+
+
+}
+
+.container_right p {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 50px;
+
+}
+
+.background_image {
+    position: absolute;
+    left: 85px;
+    right: 30px;
+    top: 190px;
+    bottom: 0px;
+    border-left: 38px;
+
+}
+
+.dashboard_image {
+    position: absolute;
+    left: 109px;
+    right: 56px;
+    top: 220px;
+    bottom: 30px;
+    border-radius: 3px;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    section {
+        display: flex;
+        width: 82%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .container_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+
+    }
+
+    .email_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-left: 80px;
+    }
+
+    .comingsoon .companylogo {
+        width: 291px;
+        height: 227px;
+        margin: 0 0 0 107px;
+    }
+
+    .comingsoon h1 {
+        font-weight: 500;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        margin-left: 64px;
+
+    }
+
+    .comingsoon p {
+       padding:  0px 0px 0px 67px;
+        margin-left: 5px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        
+    }
+    #contact-message{
+        margin-right: 65px;
+    }
+
+    .email_container input {
+        width: 344px;
+        height: 30px;
+    }
+
+    .comingsoon button {
+        width: 344px;
+        height: 30px;
+    }
+.comingsoon_socials{
+    width: 280px;
+    height: 44px;
+    margin-left: 92px;
+    padding: 0;
+}
+
+    .container_right {
+        display: none;
+    }
+}
